@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">TripPlanner</string>
     <string name="googleSignIn">Google SignIn</string>
+    <string name="addTrip">Add Trip</string>
+    <string name="logOut">LogOut</string>
+    <string name="tripName">Trip Name</string>
 </resources>
