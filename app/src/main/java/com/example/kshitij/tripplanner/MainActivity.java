@@ -35,9 +35,13 @@ public class MainActivity extends AppCompatActivity {
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if (currentUser == null){
             signIn();
+//            Intent i = new Intent(getApplicationContext(), TripListActivity.class);
+//            startActivity(i);
         }
         else {
             Toast.makeText(getApplicationContext(), "Welcome Sir",Toast.LENGTH_LONG).show();
+            Intent i = new Intent(getApplicationContext(), TripListActivity.class);
+            startActivity(i);
         }
     }
 }
